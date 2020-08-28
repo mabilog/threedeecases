@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     if (vw >= vh) {
       document.getElementById("settings-button").style.display = "none";
-      document.getElementById("desktop-nav").style.display = "flex";
+      //document.getElementById("desktop-nav").style.display = "flex";
     }
   }, [])
 
@@ -38,7 +38,7 @@ function App() {
           <a>Overview</a>
           <a>Features</a>
           <a>Gallery</a>
-      </div>
+        </div>
         <div ref={settingsButtonRef} id="settings-button" onClick={handleToggle}>
           <div className="bar1"></div>
           <div className="bar2"></div>
@@ -46,9 +46,9 @@ function App() {
         </div>
       </div>
       <div id="mobile-nav">
-          <a>Overview</a>
-          <a>Features</a>
-          <a>Gallery</a>
+        <a>Overview</a>
+        <a>Features</a>
+        <a>Gallery</a>
       </div>
     </div>
   );
