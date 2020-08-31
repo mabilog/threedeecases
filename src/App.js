@@ -13,6 +13,8 @@ function App() {
     if (vw >= vh) {
       document.getElementById("settings-button").style.display = "none";
       document.getElementById("desktop-nav").style.display = "flex";
+    } else {
+      document.getElementById("desktop-nav").style.display = "none";
     }
   }, [])
 
@@ -34,10 +36,11 @@ function App() {
     <div className="App">
       <div className="navbar">
         <a className="logo">LOGO</a>
-        <div className="desktop-nav">
+        <div id="desktop-nav">
           <a>Overview</a>
           <a>Features</a>
           <a>Gallery</a>
+          <a>Pre-Order</a>
       </div>
         <div ref={settingsButtonRef} id="settings-button" onClick={handleToggle}>
           <div className="bar1"></div>
@@ -49,6 +52,7 @@ function App() {
           <a>Overview</a>
           <a>Features</a>
           <a>Gallery</a>
+          <a>Pre-Order</a>
       </div>
     </div>
   );

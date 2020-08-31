@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+/* font-family: 'Abel', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+/* font-family: 'Julius Sans One', sans-serif; */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Abel', 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +18,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a, button {
+  cursor: pointer;
+  /* font-family: 'Julius Sans One', 'Abel', 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
 }
