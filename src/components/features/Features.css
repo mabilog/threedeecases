@@ -1,0 +1,41 @@
+.features-container {
+    max-width: 100vw;
+    height: 600px;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Venus_globe_-_transparent_background.png/1024px-Venus_globe_-_transparent_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features-container h1 {
+    margin: 20px;
+}
+
+.features {
+    grid-column: 1 /4;
+}
+
+.left {
+    grid-column: 1 / 2;
+}
+
+.middle {
+    grid-column: 2 /3;
+}
+
+.right {
+    grid-column: 3 / 4;
+}
+
+.phrase {
+    grid-column: 1 / 4;
+}
+
+.feature-left, .feature-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

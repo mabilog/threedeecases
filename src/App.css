@@ -3,12 +3,16 @@
 }
 
 .navbar {
-  width: 100vw;
+  position: sticky;
+  top: 0;
+  max-width: 100vw;
   height: 50px;
   border-bottom: 1px solid #EBEBEB;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
 }
 
 .logo {
@@ -30,10 +34,20 @@
   /* filter: blur(4px); */
 }
 
+#desktop-nav a {
+  width: 100%;
+  margin: 2px 0;
+  color: #7c7c7c;
+  text-decoration: none;
+  /* text-shadow: 0 0 8px #FFFFFF; */
+  /* backdrop-filter: blur(4px); */
+}
+
 #mobile-nav a {
   width: 100%;
   margin: 2px 0;
   color: #7c7c7c;
+  text-decoration: none;
   /* backdrop-filter: blur(4px); */
 }
 
