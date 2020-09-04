@@ -1,10 +1,14 @@
 import React, { useEffect, useState, useRef } from "react";
-import Landing from "./Landing.css";
+import "./Landing.css";
+
+//do the double scroll thing
 
 const Landing = () => {
     return (
         <div className="landing-container">
-            LANDING
+            <p>Catch Phrase</p>
+            <p className="title">ThreeDeeCase</p>
+            <a>link to buy</a>
         </div>
     )
 }

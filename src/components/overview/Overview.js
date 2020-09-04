@@ -1,10 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
-import Overview from "./Overview.css";
+import "./Overview.css";
 
 const Overview = () => {
     return (
         <div className="overview-container">
-            OVERVIEW
+            <h1>3D Printable Case</h1>
+            <p>
+                text text text text text text text text text text text text text text text text text text text text text
+            </p>
         </div>
     )
 }
