@@ -6,6 +6,7 @@ import Landing from "./components/landing/Landing";
 import Overview from "./components/overview/Overview";
 import Features from "./components/features/Features";
 import Gallery from "./components/gallery/Gallery";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -75,6 +76,9 @@ function App() {
       </div>
       <div id="gallery">
         <Gallery vw={vw} vh={vh}/>
+      </div>
+      <div id="footer">
+        <Footer/>
       </div>
     </div>
   );

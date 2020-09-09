@@ -7,7 +7,6 @@ import "./Gallery.css";
 
 const Gallery = (props) => {
   const [square, setSquare] = useState();
-  console.log(props.vw, "&", props.vh);
   useEffect(() => {
     if (props.vw >= props.vh) {
       setSquare(props.vh - 300);
