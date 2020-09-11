@@ -6,9 +6,9 @@ import "./Landing.css";
 const Landing = () => {
     return (
         <div className="landing-container">
-            <p>Catch Phrase</p>
-            <p className="title">ThreeDeeCase</p>
-            <a>link to buy</a>
+            <p>3D Printable Mini ITX Case</p>
+            <p className="title">ThreeDeeCases</p>
+            <a>Kickstarter</a>
         </div>
     )
 }

@@ -6,11 +6,11 @@ import {instagram} from 'react-icons-kit/entypo/instagram'
 const Footer = () => {
     return (
         <div className="footer-container">
-            <div className="logo-container">LOGO</div>
+            <p className="logo-container">ThreeDeeCases</p>
             <div className="socials">
                 <a href="https://www.instagram.com/threedeecases/" className="instagram"><Icon size={"10%"} icon={instagram} /></a>
             </div>
-            <div className="chin">CHIN</div>
+            <a className="chin">Kickstarter</a>
         </div>
     )
 }

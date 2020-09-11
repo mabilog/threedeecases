@@ -41,12 +41,12 @@ function App() {
   return (
     <div className="App">
       <div className="navbar">
-        <a className="logo">LOGO</a>
+        <a className="logo">ThreeDeeCases</a>
         <div id="desktop-nav">
           <a href="#overview">Overview</a>
           <a href="#features">Features</a>
           <a href="#gallery">Gallery</a>
-          <a>Pre-Order</a>
+          <a>Kickstarter</a>
         </div>
         <div
           ref={settingsButtonRef}
@@ -62,7 +62,7 @@ function App() {
         <a href="#overview">Overview</a>
         <a href="#features">Features</a>
         <a href="#gallery">Gallery</a>
-        <a>Pre-Order</a>
+        <a>Kickstarter</a>
       </div>
 
       <div id="landing">
@@ -75,6 +75,7 @@ function App() {
         <Features />
       </div>
       <div id="gallery">
+        <h1>Gallery</h1>
         <Gallery vw={vw} vh={vh}/>
       </div>
       <div id="footer">

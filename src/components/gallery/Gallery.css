@@ -8,6 +8,8 @@
 }
 
 .gallery {
+    margin: 0;
+    padding: 0;
     white-space: nowrap;
     overflow: auto;
 }
@@ -21,6 +23,6 @@
 }
 
 .gallery-container img {
-    margin: 5px;
+    margin: 0 5px;
     object-fit: cover;
 }

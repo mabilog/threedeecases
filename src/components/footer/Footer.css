@@ -3,21 +3,23 @@
     height: 50vh;
     display: grid;
     place-items: center;
-    background-color: #C4B1AB;
+    background-color:#432534;
 }
 
-.logo-container {
+/* .logo-container {
     margin: 10px;
-}
+    color: #d4d0bf;
+} */
 
 .socials a {
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: #7c7c7c;
     margin: 5px;
 }
 
-.chin {
+.logo-container, .chin {
+    text-decoration: none;
     margin: 10px;
     color: #7c7c7c;
 }
