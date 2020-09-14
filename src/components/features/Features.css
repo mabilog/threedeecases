@@ -1,5 +1,6 @@
 .features-container {
     width: 95%;
+    max-width: 1080px;
     height: 600px;
     display: grid;
     grid-template: auto 1fr auto / auto 1fr auto;
