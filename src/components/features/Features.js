@@ -21,7 +21,10 @@ const Features = () => {
           <h2>Pen Holder</h2>
         </div>
       </div>
-      {/* <div className="phrase">Customizable to your taste</div> */}
+      <p className="phrase">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+        ligula eget dolor. Aenean massa.
+      </p>
     </div>
   );
 };
